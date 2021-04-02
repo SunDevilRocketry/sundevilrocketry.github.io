@@ -70,6 +70,12 @@
         loop: true,
         margin: 0,
         nav: true,
+
+        autoplay: true,
+        autoplayTimeout: 5000,
+        autoplayHoverPause: true,
+        loop: true,
+
         items: 1,
         dots: true,
         animateOut: 'fadeOut',
