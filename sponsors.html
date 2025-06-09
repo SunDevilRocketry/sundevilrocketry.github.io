@@ -41,6 +41,50 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.sponsor-btn {
+position: relative;
+display: inline-block;
+font-size: 50px;
+font-family: "Oswald", sans-serif;
+font-weight: 600;
+padding: 0 20px;
+color: #ffffff;
+letter-spacing: 2px;
+text-transform: uppercase;
+text-align: center;
+height: 60px;
+line-height: 55px;
+box-sizing: border-box;
+border-radius: 8px;
+background: transparent;;
+cursor: pointer;
+overflow: hidden;
+transition: color 0.2s ease-in-out;
+z-index: 0;
+}
+
+/* Gradient background overlay */
+.sponsor-btn::before {
+content: "";
+position: absolute;
+inset: 0;
+border-radius: 8px;
+background: linear-gradient(to right, var(--gold), var(--rouge));
+opacity: 0.6;
+transition: opacity 0.2s ease-in-out;
+z-index: -1;
+}
+
+/* Show gradient background on hover */
+.sponsor-btn:hover::before {
+opacity: 1;
+}
+
+/* Ensure text is above the background overlay */
+.sponsor-btn > * {
+position: relative;
+z-index: 1;
+}
 </style>
 
 
