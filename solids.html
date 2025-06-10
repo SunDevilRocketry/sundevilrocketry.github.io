@@ -233,44 +233,59 @@
         </div>
       </div>
       <div class="container-fluid">
-        <div class="row" id="Projects">
-          <video
-            class="classes-item set-bg"
-            style="
-              width: 50%;
-              height: auto;
-              object-fit: cover;
-              margin: 0;
-              padding: 0;
-              display: block;
-              border-radius: 10px;
-            "
-            autoplay
-            loop
-            controls
-          >
-            <source src="img/solids/hotfire11.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-          <video
-            class="classes-item set-bg"
-            style="
-              width: 50%;
-              height: auto;
-              object-fit: cover;
-              margin: 0;
-              padding: 0;
-              display: block;
-              border-radius: 10px;
-            "
-            autoplay
-            loop
-            controls
-          >
-            <source src="img/solids/hotfire2.mov" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
+        <div class="row" id="Projects" style="display: flex; flex-wrap: wrap;">
+          <div style="flex: 1 1 50%; min-width: 300px; max-width: 100%; box-sizing: border-box;">
+            <video
+              class="classes-item set-bg"
+              style="
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+                margin: 0;
+                padding: 0;
+                display: block;
+                border-radius: 10px;
+              "
+              autoplay
+              loop
+              controls
+            >
+              <source src="img/solids/hotfire11.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div style="flex: 1 1 50%; min-width: 300px; max-width: 100%; box-sizing: border-box;">
+            <video
+              class="classes-item set-bg"
+              style="
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+                margin: 0;
+                padding: 0;
+                display: block;
+                border-radius: 10px;
+              "
+              autoplay
+              loop
+              controls
+            >
+              <source src="img/solids/hotfire2.mov" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
         </div>
+        <style>
+        @media (max-width: 768px) {
+          #Projects {
+            flex-direction: column !important;
+          }
+          #Projects > div {
+            flex: 1 1 100% !important;
+            min-width: 0 !important;
+          }
+        }
+        </style>
       </div>
     </section>
 
