@@ -1,237 +1,362 @@
 <!DOCTYPE html>
 <html lang="zxx">
-
-<head>
+  <head>
     <title>Sun Devil Rocketry</title>
     <meta http-equiv="Content-Type" content="text/html" />
     <meta charset="UTF-8" />
     <meta name="author" content="James Hansen" />
-    <meta name="about" content="Sun Devil Rocketry at Arizona State University is an undergraduate student organization focused on providing students valuable experiences in rocket propulsion development and high-power rocketry." />
-    <link rel="apple-touch-icon" sizes="180x180" href="Icon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="Icon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="Icon/favicon-16x16.png">
-    <link rel="manifest" href="Icon/site.webmanifest">
+    <meta
+      name="about"
+      content="Sun Devil Rocketry at Arizona State University is an undergraduate student organization focused on providing students valuable experiences in rocket propulsion development and high-power rocketry."
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="Icon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="Icon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="Icon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="Icon/site.webmanifest" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700,800,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700,800,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Css Styles -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
-    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
-    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
-</head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css" />
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+  </head>
 
-<style>
-body {
-  /* The image used */
-  background-image: url("img/solids/bg.jpg");
-  height: 500px;
+  <style>
+    body {
+      /* The image used */
+      background-image: url("img/solids/solid-bg.jpg");
+      height: 500px;
 
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-</style>
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
 
-<body>
+      /* Lower opacity to make it darkened */
+      background-color: rgba(0, 0, 0, 0.5);
+      background-blend-mode: darken;
+    }
+  </style>
+
+  <body>
     <!-- Page Preloder -->
     <div id="preloder">
-        <div class="loader"></div>
+      <div class="loader"></div>
     </div>
 
     <!-- Header Section Begin -->
     <header class="header-section">
-        <div class="container-fluid">
-            <div class="logo">
-                <a href="./index.html">
-                    <img src="img/logo.png" alt="">
-                </a>
-            </div>
-            <div class="top-social">
-                <a href="http://www.facebook.com/SunDevilRocketry/" target="_blank"><i class="fa fa-facebook"></i></a>
-                <a href="https://www.instagram.com/sun.devil.rocketry/" target="_blank"><i class="fa fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/company/sun-devil-rocketry" target="_blank"><i class="fa fa-linkedin"></i></a>
-                <a href="https://www.youtube.com/channel/UCQ922Kad6tfLVMjpdCOGOug/" target="_blank"><i class="fa fa-youtube-play"></i></a>
-            </div>
-            <div class="container">
-                <div class="nav-menu">
-                    <nav class="mainmenu mobile-menu">
-                        <ul>
-                            <li><a href="./about-us.html">About us</a></li>
-                            <li><a href="./index.html#Projects">Projects</a>
-                                <ul class="dropdown">
-                                    <li><a href="./propulsion.html">Propulsion Research</a>
-                                        <ul class="dropright">
-                                            <li><a href="./solids.html">Solids</a></li>
-                                            <!--<li><a href="./hybrids.html">Hybrids</a></li>-->
-                                            <li><a href="./liquids.html">Liquids</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="./highpower.html">High-Power Rocketry</a></li>
-                                    <li><a href="./introteam.html">Intro-Team Challenge</a></li>
-                                    <li><a href="./avionics.html">Avionics</a></li>
-                                    <li><a href="./outreach.html">Outreach Program</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="./sponsors.html">Sponsors</a></li>
-                            <li><a href="./contact.html">Contact</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-            <div id="mobile-menu-wrap"></div>
+      <div class="container-fluid">
+        <div class="logo">
+          <a href="./index.html">
+            <img src="img/logo.png" alt="" />
+          </a>
         </div>
+        <div class="top-social">
+          <a href="http://www.facebook.com/SunDevilRocketry/" target="_blank"
+            ><i class="fa fa-facebook"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/sun.devil.rocketry/"
+            target="_blank"
+            ><i class="fa fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/company/sun-devil-rocketry"
+            target="_blank"
+            ><i class="fa fa-linkedin"></i
+          ></a>
+          <a
+            href="https://www.youtube.com/channel/UCQ922Kad6tfLVMjpdCOGOug/"
+            target="_blank"
+            ><i class="fa fa-youtube-play"></i
+          ></a>
+        </div>
+        <div class="container">
+          <div class="nav-menu">
+            <nav class="mainmenu mobile-menu">
+              <ul>
+                <li><a href="./about-us.html">About us</a></li>
+                <li>
+                  <a href="./index.html#Projects">Projects</a>
+                  <ul class="dropdown">
+                    <li>
+                      <a href="./propulsion.html">Propulsion Research</a>
+                      <ul class="dropright">
+                        <li><a href="./solids.html">Solids</a></li>
+                        <!--<li><a href="./hybrids.html">Hybrids</a></li>-->
+                        <li><a href="./liquids.html">Liquids</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="./highpower.html">High-Power Rocketry</a></li>
+                    <li><a href="./introteam.html">Intro-Team Challenge</a></li>
+                    <li><a href="./avionics.html">Avionics</a></li>
+                    <li><a href="./outreach.html">Outreach Program</a></li>
+                  </ul>
+                </li>
+                <li><a href="./sponsors.html">Sponsors</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div id="mobile-menu-wrap"></div>
+      </div>
     </header>
     <!-- Header End -->
-        
+
     <!-- Breadcrumb Section Begin -->
-    <section class="breadcrumb-section set-bg spad" data-setbg="" style="opacity: 1">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="breadcrumb-text">
-                        <h2 style="margin-top: 20%; margin-bottom: 20%;">Solid Rocket Propulsion</h2>
-                    </div>
-                </div>
+    <section
+      class="breadcrumb-section set-bg spad"
+      data-setbg=""
+      style="opacity: 1"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="breadcrumb-text">
+              <h2 style="margin-top: 20%; margin-bottom: 20%">
+                Solid Rocket Propulsion
+              </h2>
             </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- Breadcrumb End -->
 
     <!-- Aboutus Section Begin -->
     <section class="aboutus-section spad" style="opacity: 0.8">
-        <div class="container">
-            <div class="aboutus-page-text">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="about-us">
-                            <h4>SUMMARY</h4>
-                            <p>The Solids research initiative gives aspiring rocket scientists and engineers experience in conducting technical, in-depth, hands-on propulsion research in a collaborative university environment. By participating in this research, students can prepare for careers in the aerospace industry, including defense, R&D, and space exploration.</p>
-                            <p>Solid rocket propellant has existed since the 13th century, and has continuously evolved over time in multiple forms. Sun Devil Rocketry’s Solid Propulsion Team explores and innovates upon the oldest form of rocket propulsion. The goal of the Solids team is to expand on the existing testing infrastructure while simultaneously developing solid rocket propellants that can be used for high power rockets built within the club.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="about-quality">
-                            <h4>ENGINE SPECIFICATIONS:</h4>
-                            <p>Currently, the Solids research team is developing a testing and analysis process to accurately and safely characterize different propellant mixtures. With an amalgamation of work on the testing site and test equipment, the team is looking forward to full characterization of a motor in house. Over the past year, the team has worked on a Crawford Strand Burner which will allow the team to safely and efficiently design the propellants. In addition to the goals set by the solids team, pioneering the testing site will create a lot of opportunities for further research for other research groups at ASU.</p>
-                            <p>While the solids team has experience static firing and testing engines, it was essential to define engine specifications to establish safety:</p>
-                            <ul>
-                                <li><i class="fa fa-check-circle-o"></i>5000 psig</li>
-                                <li><i class="fa fa-check-circle-o"></i>50x FOS</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="aboutus-page-text">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="about-us">
+                <h4>SUMMARY</h4>
+                <p>
+                  The solid propulsion research team was restarted in the
+                  2024-2025 school year to provide SDR members experience in
+                  formulating, handling, producing, and hotfiring solid rocket
+                  propellants similar in composition to those used in the
+                  commercial space and defense industry.
+                </p>
+                <p>
+                  During the 2024-2025 year, the team formulated three new
+                  propellant variations, and conducting 13 motor firings with
+                  12/13 successful. In total, the team fired over 40 pounds of
+                  experimental solid rocket propellant - a cadence not seen at
+                  SDR for over a decade. During the 2025-2026 school year, the
+                  team looks forward to scaling motors to the 4" diameter scale,
+                  and producing motors that are able to fly scratch-built
+                  rockets over Mach 3 and 50,000 feet.
+                </p>
+              </div>
             </div>
-        </div>
-    </section>
-    </section>
-        <section class="classes-section">
-        <div class="container-fluid">
-            <div class="row" id="Projects">
-                <a href="downloads/Refurbishment of a Crawford Strand Burner and Procedures.pdf" target="_blank"><div class="col-lg-12 col-sm-6">
-                    <div class="classes-item set-bg" data-setbg="img/solids/AIAA_paper1.jpg">
-                        <h4>Refurbishment of a Crawford Strand Burner Paper</h4>
-                        <p>In the past, students...have utilized a Crawford Strand Burner to aid in the characterization of solid propellants...</p>
-                        <a href="downloads/Refurbishment of a Crawford Strand Burner and Procedures.pdf" target="_blank" class="primary-btn class-btn">DOWNLOAD</a>
-                    </div>
-                </div></a>
+            <div class="col-lg-6">
+              <div class="about-quality">
+                <h4>ENGINE SPECIFICATIONS:</h4>
+                <p>
+                  The motors that the SDR solids team has fired over the last
+                  year include 9 ballistic evaluation motors, with the purpose
+                  of characterizing propellant performance, and 4 flight-capable
+                  motors at the 2" and 3" diameter scale. Of these 4 motors, the
+                  two 3" diameter motors were fired nominally at 500lbf thrust.
+                  Of the 2" motors, one underwent a casing rupture, and the
+                  other was successfully flown in a member's personal rocket.
+                </p>
+                <ul>
+                  <li>
+                    <i class="fa fa-check-circle-o"></i>Propellant: Aluminized
+                    Ammonium Perchlorate Composite Propellant (APCP)
+                  </li>
+                  <li>
+                    <i class="fa fa-check-circle-o"></i>Solids Loading: 83%
+                  </li>
+                  <li>
+                    <i class="fa fa-check-circle-o"></i>Max. Pressure Attained:
+                    1580psi
+                  </li>
+                  <li>
+                    <i class="fa fa-check-circle-o"></i>Max. Thrust Attained:
+                    500lbf
+                  </li>
+                </ul>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- Aboutus Section End -->
 
-
-        <!-- Classes Section Begin -->
-    <section class="classes-section">
-        <div class="class-title set-bg" data-setbg="img/common/header-bg.jpg">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-7 m-auto text-center">
-                        <div class="section-title pl-lg-4 pr-lg-4 pl-0 pr-0">
-                            <h2>Solids Team Divisions</h2>
-                        </div>
-                    </div>
-                </div>
+    <!-- Classes Section Begin -->
+    <section class="classes-section" style="opacity: 0.98">
+      <div class="class-title set-bg" data-setbg="img/common/header-bg.jpg">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7 m-auto text-center">
+              <div class="section-title pl-lg-4 pr-lg-4 pl-0 pr-0">
+                <h2>Solids Hot-fire</h2>
+              </div>
             </div>
+          </div>
         </div>
-        <div class="container-fluid">
-            <div class="row" id="Projects">
-                <div class="col-lg-6 col-sm-6">
-                    <div class="classes-item set-bg" data-setbg="img/solids/testStand.png">
-                        <h4>Propulsion</h4>
-                        <p style="font-size: 20px;">Nozzle + Combustion Chamber, Ignition, Engine Design, Propellant Mixture Analysis, Test Stand + Design, Crawford Strand Burner Refurbishment, Regression Rate Tests</p>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-sm-6">
-                    <div class="classes-item set-bg" data-setbg="img/solids/gui.png">
-                        <h4>Avionics</h4>
-                        <p style="font-size: 20px;">Data Aquisition + Sensors, Engine Startup Automation, Controls + User Interfacing, Electrical / PCB Design</p>
-                    </div>
-                </div>
-            </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row" id="Projects">
+          <video
+            class="classes-item set-bg"
+            style="
+              width: 50%;
+              height: auto;
+              object-fit: cover;
+              margin: 0;
+              padding: 0;
+              display: block;
+              border-radius: 10px;
+            "
+            autoplay
+            loop
+            controls
+          >
+            <source src="img/solids/hotfire11.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <video
+            class="classes-item set-bg"
+            style="
+              width: 50%;
+              height: auto;
+              object-fit: cover;
+              margin: 0;
+              padding: 0;
+              display: block;
+              border-radius: 10px;
+            "
+            autoplay
+            loop
+            controls
+          >
+            <source src="img/solids/hotfire2.mov" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
         </div>
+      </div>
     </section>
-
 
     <!-- Cta Section Begin -->
     <section class="cta-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="cta-text">
-                        <h3>Support Sun Devil Rocketry</h3>
-                        <p>Nothing we do would be possible without the support of our donors, corporate sponsors, and talented membership. Be part of the future of aerospace, and support Sun Devil Rocketry today!</p>
-                    </div>
-                    <a href="./sponsors.html" class="primary-btn cta-btn">donate</a>
-                    <a href="./sponsors.html" class="primary-btn cta-btn">become a sponsor</a>
-                    <a href="https://forms.gle/xwmFrNe8iGr4Fsds7" target="_blank" class="primary-btn cta-btn">Join our club</a>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="cta-text">
+              <h3>Support Sun Devil Rocketry</h3>
+              <p>
+                Nothing we do would be possible without the support of our
+                donors, corporate sponsors, and talented membership. Be part of
+                the future of aerospace, and support Sun Devil Rocketry today!
+              </p>
             </div>
+            <a href="./sponsors.html" class="primary-btn cta-btn">donate</a>
+            <a href="./sponsors.html" class="primary-btn cta-btn"
+              >become a sponsor</a
+            >
+            <a
+              href="https://forms.gle/xwmFrNe8iGr4Fsds7"
+              target="_blank"
+              class="primary-btn cta-btn"
+              >Join our club</a
+            >
+          </div>
         </div>
+      </div>
     </section>
     <!-- Cta Section End -->
 
     <!-- Footer Section Begin -->
     <footer class="footer-section" style="opacity: 0.8">
+      <div class="container">
+        <div class="row">
+          <div
+            class="footer-logo-item"
+            style="margin-right: 10px; margin-left: 10px"
+          >
+            <div class="f-logo">
+              <a href="#"><img src="img/logo.png" alt="" /></a>
+            </div>
+            <p>
+              Sun Devil Rocketry is an undergraduate student organization at
+              Arizona State University focused on preparing students to become
+              leaders in aerospace through valuable experiences in rocket
+              propulsion development and high-power rocketry.
+            </p>
+            <div class="social-links">
+              <a href="http://www.facebook.com/SunDevilRocketry/"
+                ><i class="fa fa-facebook"></i
+              ></a>
+              <a href="https://www.instagram.com/sun.devil.rocketry/"
+                ><i class="fa fa-instagram"></i
+              ></a>
+              <a href="https://www.linkedin.com/company/sun-devil-rocketry"
+                ><i class="fa fa-linkedin"></i
+              ></a>
+              <a
+                href="https://www.youtube.com/channel/UCQ922Kad6tfLVMjpdCOGOug/"
+                ><i class="fa fa-youtube-play"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright-text">
         <div class="container">
-            <div class="row">
-                
-                    <div class="footer-logo-item" style="margin-right: 10px; margin-left: 10px;">
-                        <div class="f-logo">
-                            <a href="#"><img src="img/logo.png" alt=""></a>
-                        </div>
-                        <p>Sun Devil Rocketry is an undergraduate student organization at Arizona State University focused on preparing students to become leaders in aerospace through valuable experiences in rocket propulsion development and high-power rocketry.</p>
-                        <div class="social-links">
-                            <a href="http://www.facebook.com/SunDevilRocketry/"><i class="fa fa-facebook"></i></a>
-                            <a href="https://www.instagram.com/sun.devil.rocketry/"><i class="fa fa-instagram"></i></a>
-                            <a href="https://www.linkedin.com/company/sun-devil-rocketry"><i class="fa fa-linkedin"></i></a>
-                            <a href="https://www.youtube.com/channel/UCQ922Kad6tfLVMjpdCOGOug/"><i class="fa fa-youtube-play"></i></a>
-                        </div>
-                    </div>
-                
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <div class="ct-inside">
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                Copyright &copy;
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                All rights reserved | This template is made with
+                <i class="fa fa-heart-o" aria-hidden="true"></i> by
+                <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              </div>
             </div>
+          </div>
         </div>
-        <div class="copyright-text">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <div class="ct-inside"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
     </footer>
     <!-- Footer Section End -->
 
@@ -245,6 +370,5 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/masonry.pkgd.min.js"></script>
     <script src="js/main.js"></script>
-</body>
-
+  </body>
 </html>
