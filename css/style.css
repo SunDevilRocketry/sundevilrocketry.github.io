@@ -1627,6 +1627,9 @@ ol {
 .footer-section {
 	background: #151515;
 	padding-top: 72px;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-bottom: 24px;
 }
 
 .footer-logo-item {
