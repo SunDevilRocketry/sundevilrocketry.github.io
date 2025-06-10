@@ -1472,6 +1472,17 @@ ol {
 	background-image: linear-gradient(to right, #ffffff 100%, #ffffff 100%), linear-gradient(to right, #ffffff 0%, #ffffff 0%);
 	margin-top: 14px;
 	margin-right: 14px;
+	transition-duration: 0.2s;
+}
+
+.cta-section .primary-btn.cta-btn:hover {
+	float: right;
+	border-color: #ffffff;
+	background-color: #ffffff;
+	color: var(--rouge);
+	margin-top: 14px;
+	margin-right: 14px;
+	transition-duration: 0.2s;
 }
 
 /*---------------------
