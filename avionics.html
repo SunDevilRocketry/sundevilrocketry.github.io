@@ -40,6 +40,10 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.classes-item {
+    height: 800px;
+}
 </style>
 
 <body>
@@ -72,7 +76,7 @@ body {
                                     <li><a href="./propulsion.html">Propulsion Research</a>
                                         <ul class="dropright">
                                             <li><a href="./solids.html">Solids</a></li>
-                                            <li><a href="./hybrids.html">Hybrids</a></li>
+                                            <!--<li><a href="./hybrids.html">Hybrids</a></li>-->
                                             <li><a href="./liquids.html">Liquids</a></li>
                                         </ul>
                                     </li>
@@ -115,17 +119,18 @@ body {
                     <div class="col-lg-6">
                         <div class="about-us">
                             <h4>SUMMARY</h4>
-                            <p>The avionics team is responsible for the development of all of Sun Devil Rocketry electronics and software systems. The team is currently working on four separate projects, including a liquid propulsion avionics system, a hybrid propulsion avionics system, a solid propellant data acquisition system, and a custom high-powered rocketry flight computer. The team promotes the development of electrical and software engineering skill sets such as PCB design, analog and digital electronics, software engineering, embedded systems, and systems engineering. The team is also working on the mechanism and control scheme of an actuated canard system for the purpose of active stabilization and control of high-powered rockets.</p>
+                            <p>The avionics team is responsible for the development of all of Sun Devil Rocketry electronics and software systems. The team promotes the development of electrical and software engineering skill sets such as PCB design, analog and digital electronics, software engineering, embedded systems, and systems engineering. The team recently launched an actuated canard system for the purpose of active stabilization and control of high-powered rockets.</p>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="about-quality">
                             <h4>DIVISIONS</h4>
-                            <p>The avionics team is currently splitted into 3 smaller teams: </p>
+                            <p>The avionics team is currently split into 4 subteams: </p>
                             <ul>
-                                <li><i class="fa fa-check-circle-o"></i>Hardware Development</li>
-                                <li><i class="fa fa-check-circle-o"></i>Software Development</li>
-                                <li><i class="fa fa-check-circle-o"></i>Experimental Canard Fins Research</li>
+                                <li><i class="fa fa-check-circle-o"></i>Firmware</li>
+                                <li><i class="fa fa-check-circle-o"></i>Hardware</li>
+                                <li><i class="fa fa-check-circle-o"></i>Software</li>
+                                <li><i class="fa fa-check-circle-o"></i>Liquids</li>
                             </ul>
                         </div>
                     </div>
@@ -157,11 +162,13 @@ body {
             <div class="container-fluid">
                 <div class="row" id="Projects">
                     <div class="col-lg-6 col-sm-6">
-                        <div class="classes-item set-bg" data-setbg="img/avionics/enginecontroller.jpg">
+                        <div class="classes-item set-bg av-pre-hover" data-setbg="img/avionics/enginecontroller.jpg">
+                            <div class="av-on-hover">The Liquid Engine Controller is the main embedded processor of Sun Devil Rocketry's Liquid Engine. As the brains of the engine, the controller is responsible for executing propellant feed sequences semi-autonomously, logging sensor data, and transmitting engine telemetry.</div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-sm-6">
-                        <div class="classes-item set-bg" data-setbg="img/avionics/fc.png">
+                        <div class="classes-item set-bg av-pre-hover" data-setbg="img/avionics/fc.png">
+                            <div class="av-on-hover">The flight computer is Sun Devil Rocketry's first ever in-house designed and manufactured high-power rocketry altimeter. The flight computer project aims to serve as a drop-in replacement for the commercially produced altimeters currently used in Sun Devil Rocketry rockets, while also supporting more advanced rocketry projects by including extra sensors and peripheral interfaces.</div>
                         </div>
                     </div>
                 </div>
@@ -169,11 +176,13 @@ body {
             <div class="container-fluid">
                 <div class="row" id="Projects">
                     <div class="col-lg-6 col-sm-6">
-                        <div class="classes-item set-bg" data-setbg="img/avionics/fins.png">
+                        <div class="classes-item set-bg av-pre-hover" data-setbg="img/avionics/amraam.jpg">
+                            <div class="av-on-hover">Sun Devil Rocketry's Avionics team recently developed an application to support active roll control aboard our rockets. This flew for the first time in April 2025, and is the flight firmware team's most ambitious project yet!</div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-sm-6">
-                        <div class="classes-item set-bg" data-setbg="img/avionics/gui.png">
+                        <div class="classes-item set-bg av-pre-hover" data-setbg="img/avionics/gui.png">
+                            <div class="av-on-hover">The software subteam is the newest division of the Avionics team. They are hard at work developing a desktop application to simplify communicating and interfacing with the Flight Computer.</div>
                         </div>
                     </div>
                 </div>

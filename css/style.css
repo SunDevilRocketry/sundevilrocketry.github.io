@@ -194,36 +194,7 @@ ol {
 	z-index: 1;
 	border-radius: 8px;
 }
-	.sponsor-btn {
-		display: inline-block;
-		font-size: 50px;
-		font-family: "Oswald", sans-serif;
-		font-weight: 600;
-		padding: 0 20px;
-		color: #ffffff;
-		letter-spacing: 2px;
-		text-transform: uppercase;
-		text-align: center;
-		/*width: 160px;*/
-		height: 60px;
-		border-left: 2px solid var(--gold);
-		border-right: 2px solid var(--rouge);
-		-webkit-box-sizing: border-box;
-		box-sizing: border-box;
-		background-position: 0 0, 0 100%;
-		background-repeat: no-repeat;
-		background-size: 100% 2px;
-		background-image: -webkit-gradient(linear, left top, right top, color-stop(100%, var(--rouge)), to(var(--gold))), -webkit-gradient(linear, left top, right top, from(var(--rouge)), color-stop(0%, var(--gold)));
-		background-image: -o-linear-gradient(left, var(--rouge) 100%, var(--gold) 100%), -o-linear-gradient(left, var(--rouge) 0%, var(--gold) 0%);
-		background-image: linear-gradient(to right, var(--rouge) 100%, var(--gold) 100%), linear-gradient(to right, var(--rouge) 0%, var(--gold) 0%);
-		-webkit-transition-duration: 1000ms;
-		-o-transition-duration: 1000ms;
-		transition-duration: 1000ms;
-		line-height: 55px;
-		position: relative;
-		z-index: 1;
-		border-radius: 8px;
-	}
+
 .primary-btn:after {
 	color: #fff;
 	-webkit-transition-duration: 500ms;
@@ -1501,6 +1472,17 @@ ol {
 	background-image: linear-gradient(to right, #ffffff 100%, #ffffff 100%), linear-gradient(to right, #ffffff 0%, #ffffff 0%);
 	margin-top: 14px;
 	margin-right: 14px;
+	transition-duration: 0.2s;
+}
+
+.cta-section .primary-btn.cta-btn:hover {
+	float: right;
+	border-color: #ffffff;
+	background-color: #ffffff;
+	color: var(--rouge);
+	margin-top: 14px;
+	margin-right: 14px;
+	transition-duration: 0.2s;
 }
 
 /*---------------------
@@ -1656,6 +1638,9 @@ ol {
 .footer-section {
 	background: #151515;
 	padding-top: 72px;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-bottom: 24px;
 }
 
 .footer-logo-item {
@@ -1794,6 +1779,32 @@ ol {
 /* ----------------------------------- Other Pages Styles ------------------------------*/
 
 /*---------------------
+  Avionics Page
+---------------------*/
+
+.av-on-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent black overlay */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-size: 1.2rem; /* Optional: adjust text size */
+}
+
+.av-pre-hover:hover .av-on-hover {
+    opacity: 1;
+}
+
+/*---------------------
   Breadcrumb Section
 -----------------------*/
 
@@ -1839,6 +1850,10 @@ ol {
 	color: #ffffff;
 }
 
+.about-us {
+	padding: 12px;
+}
+
 /*---------------------
   AboutUs Section
 -----------------------*/
@@ -1847,6 +1862,10 @@ ol {
 	background: #151515;
 	padding-top: 90px;
 	padding-bottom: 80px;
+}
+
+.about-quality {
+	padding: 12px;
 }
 
 .aboutus-page-text .section-title {
@@ -1992,15 +2011,24 @@ ol {
 	margin-bottom: 30px;
 }
 
-.trainer-item:hover .ti-pic .ti-links {
-	left: 20px;
+.trainer-item .ti-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 240px;
+    overflow: hidden;
+    position: relative;
 }
 
 .trainer-item .ti-pic img {
-	min-width: 100%;
-	min-height: 100%;
-	max-width: 200px;
-	max-height: 200px;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.trainer-item:hover .ti-pic .ti-links {
+	left: 20px;
 }
 
 .trainer-item .ti-pic .ti-links {

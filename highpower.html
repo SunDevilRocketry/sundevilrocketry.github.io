@@ -28,6 +28,28 @@
     <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 
+<style>
+body {
+    /* The image used */
+    background-image: url("img/highpower/rokit.jpg");
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* Lower opacity to make it darkened */
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+}
+
+.classes-item {
+    height: 800px;
+}
+</style>
+
 <body>
     <!-- Page Preloder -->
     <div id="preloder">
@@ -58,12 +80,13 @@
                                     <li><a href="./propulsion.html">Propulsion Research</a>
                                         <ul class="dropright">
                                             <li><a href="./solids.html">Solids</a></li>
-                                            <li><a href="./hybrids.html">Hybrids</a></li>
+                                            <!--<li><a href="./hybrids.html">Hybrids</a></li>-->
                                             <li><a href="./liquids.html">Liquids</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="./highpower.html">High-Power Rocketry</a></li>
                                     <li><a href="./introteam.html">Intro-Team Challenge</a></li>
+                                    <li><a href="./avionics.html">Avionics</a></li>
                                     <li><a href="./outreach.html">Outreach Program</a></li>
                                 </ul>
                             </li>
@@ -79,21 +102,91 @@
     <!-- Header End -->
 
     <!-- Breadcrumb Section Begin -->
-    <section class="breadcrumb-section set-bg spad" data-setbg="img/construction.png">
+    <section class="breadcrumb-section set-bg spad" data-setbg="" style="opacity: 1">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumb-text">
-                        <h2 style="margin-top: 20%;">COMING SOON</h2>
-                        <div class="breadcrumb-controls" style=" margin-bottom: 20%;">
-                            <span>This page is currently under development and will be back up soon. Check back later!</span>
-                        </div>
+                        <h2 style="margin-top: 20%; margin-bottom: 20%;">Advanced High Power Rocketry</h2>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- Breadcrumb End -->
+
+    <!-- Aboutus Section Begin -->
+    <section class="aboutus-section spad" style="opacity: 0.8">
+        <div class="container">
+            <div class="aboutus-page-text">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="about-us">
+                            <h4>SUMMARY</h4>
+                            <p>The AHPR team at SDR started in 2023 and provides an opportunity for members to further their skills in key aerospace disciplines such as composites manufacturing, rocket design and launch operations. This is done through participation in ambitious, club-funded amateur rocketry projects after completing the intro team. In its first two years, our team designed, built and launched supersonic two-stage rockets with maximum altitudes exceeding 35k feet.</p>
+                            <p>In the 2025-2026 academic year, AHPR will collaborate with the experimental solid propulsion team to design, manufacture and launch high performance scratch-built 3 and 4 inch rockets capable of reaching Mach 3 and 60k feet.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="about-quality">
+                            <h4>NAUTILUS SPECIFICATIONS:</h4>
+                            <ul>
+                                <li><i class="fa fa-check-circle-o"></i>Motor Type -> APCP Solid Motor</li>
+                                <li><i class="fa fa-check-circle-o"></i>Motor class -> M to L. Combined total impulse of ~17,000Ns</li>
+                                <li><i class="fa fa-check-circle-o"></i>Max speed -> Mach 3</li>
+                                <li><i class="fa fa-check-circle-o"></i>Max altitude -> 41k feet</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Aboutus Section End -->
+
+
+    <!-- Classes Section Begin -->
+    <section class="classes-section">
+        <div class="class-title set-bg" data-setbg="img/common/header-bg.jpg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 m-auto text-center">
+                        <div class="section-title pl-lg-4 pr-lg-4 pl-0 pr-0">
+                            <h2>About AHPR</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row" id="Projects">
+                <div class="col-lg-6 col-sm-6">
+                    <div class="classes-item set-bg av-pre-hover" data-setbg="img/highpower/2-stage-in-progress.jpg">
+                        <div class="av-on-hover">AHPR is currently working on a two stage rocket that is forecasted to reach Mach 3 and a max altitude of 60,000 feet.</div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                    <div class="classes-item set-bg av-pre-hover" data-setbg="img/highpower/team.jpg">
+                        <div class="av-on-hover">None of it would be possible without the hard work of our amazing team of ASU students, who volunteer their time to help us smash the sound barrier.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row" id="Projects">
+                <div class="col-lg-6 col-sm-6">
+                    <div class="classes-item set-bg av-pre-hover" data-setbg="img/highpower/materials.jpg">
+                        <div class="av-on-hover">AHPR uses industry-grade materials to achieve a finely tuned balance of lightweight vehicles that can stand up to the extreme forces of supersonic flight.</div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                    <div class="classes-item set-bg av-pre-hover" data-setbg="img/highpower/construction.jpg">
+                        <div class="av-on-hover">The team also uses advanced techniques to fabricate purpose-built components for its rockets.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Cta Section Begin -->
     <section class="cta-section">
