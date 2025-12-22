@@ -46,7 +46,18 @@ body {
 }
 
 .classes-item {
-    height: 800px;
+    aspect-ratio: 16 / 9;
+    width: calc(100% + 30px);
+    height: auto;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 0 !important;
+}
+
+.classes-item.set-bg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 </style>
 
@@ -171,7 +182,7 @@ body {
                     </div>
                     <div class="col-lg-6 col-sm-6">
                         <div class="classes-item set-bg av-pre-hover" data-setbg="img/avionics/fc.png">
-                            <div class="av-on-hover">The flight computer is Sun Devil Rocketry's first ever in-house designed and manufactured high-power rocketry altimeter. The flight computer project aims to serve as a drop-in replacement for the commercially produced altimeters currently used in Sun Devil Rocketry rockets, while also supporting more advanced rocketry projects by including extra sensors and peripheral interfaces.</div>
+                            <div class="av-on-hover">The flight computer is Sun Devil Rocketry's first ever in-house designed and manufactured high-power rocketry altimeter. The flight computer is also capable of live telemetry, parachute deployment, and active aerodynamic control.</div>
                         </div>
                     </div>
                 </div>
