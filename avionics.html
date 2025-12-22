@@ -5,7 +5,7 @@
     <title>Sun Devil Rocketry</title>
     <meta http-equiv="Content-Type" content="text/html" />
 	<meta charset="UTF-8" />
-	<meta name="author" content="James Hansen" />
+	<meta name="author" content="James Hansen, Eli Sells" />
 	<meta name="about" content="Sun Devil Rocketry at Arizona State University is an undergraduate student organization focused on providing students valuable experiences in rocket propulsion development and high-power rocketry." />
 	<link rel="apple-touch-icon" sizes="180x180" href="Icon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="Icon/favicon-32x32.png">
@@ -39,6 +39,10 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  /* Lower opacity to make it darkened */
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
 }
 
 .classes-item {
@@ -125,12 +129,11 @@ body {
                     <div class="col-lg-6">
                         <div class="about-quality">
                             <h4>DIVISIONS</h4>
-                            <p>The avionics team is currently split into 4 subteams: </p>
+                            <p>The avionics team is currently split into 3 divisions: </p>
                             <ul>
-                                <li><i class="fa fa-check-circle-o"></i>Firmware</li>
                                 <li><i class="fa fa-check-circle-o"></i>Hardware</li>
+                                <li><i class="fa fa-check-circle-o"></i>Firmware</li>
                                 <li><i class="fa fa-check-circle-o"></i>Software</li>
-                                <li><i class="fa fa-check-circle-o"></i>Liquids</li>
                             </ul>
                         </div>
                     </div>
@@ -181,7 +184,7 @@ body {
                         </div>
                     </div>
                     <div class="col-lg-6 col-sm-6">
-                        <div class="classes-item set-bg av-pre-hover" data-setbg="img/avionics/gui.png">
+                        <div class="classes-item set-bg av-pre-hover" data-setbg="img/avionics/dashboard.png">
                             <div class="av-on-hover">The software subteam is the newest division of the Avionics team. They are hard at work developing a desktop application to simplify communicating and interfacing with the Flight Computer.</div>
                         </div>
                     </div>
