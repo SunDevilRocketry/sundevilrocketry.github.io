@@ -86,11 +86,27 @@ position: relative;
 z-index: 1;
 }
 
+.platinum {
+    margin: 12px;
+}
+
 .gold {
     margin: 12px;
 }
 
-@media ( max-width: 767.98px /* mobile threshold */ ) {
+.silver {
+    margin: 12px;
+}
+
+.Sponsorcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* mobile threshold: 767.98 */
+@media ( max-width: 767.98px ) {
   .Sponsorcontainer .col-sm-6 {
     margin-bottom: 20px;
   }
@@ -98,6 +114,21 @@ z-index: 1;
   .Sponsorcontainer .col-sm-6:last-child {
     margin-bottom: 0;
   }
+}
+
+.Sponsorcontainer > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sponsor-heading {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;     /* Centers vertically */
+    color: lightgrey;
+    padding-bottom: 2%;
+    padding-top: 3%;
 }
 
 </style>
@@ -179,35 +210,66 @@ z-index: 1;
 
     <!-- Gallery Section Begin -->
     <section class="gallery-section spad">
-        <div class="Sponsorcontainer">
+        <h2 class="sponsor-heading" style="padding-top: 0%">Platinum Sponsors:</h2>
+        <div class="Sponsorcontainer row clearfix">
             <!-- <div class="row gallery-filter"> -->
-                <div class="col-lg-4 col-sm-6 mix platinum"> 
-                    <a href="https://engineering.asu.edu/" target="_blank">
-                        <img src="img/logos/sponsors/asu.png" alt="">
-                    </a>
-                </div>
+            <div class="col-lg-4 col-sm-6 mix platinum"> 
+                <a href="https://engineering.asu.edu/" target="_blank">
+                    <img src="img/logos/sponsors/asu.png" alt="">
+                </a>
+            </div>
         </div>
-        <div class="Sponsorcontainer">
-                <div class="col-lg-3 col-sm-6 mix gold">
-                    <a href="https://labjack.com/" target="_blank">
-                        <img src="img/logos/sponsors/LabJack.png" alt="">
-                    </a>
-                </div>
-                <div class="col-lg-3 col-sm-6 mix gold">
-                    <a href="https://3dconnexion.com/us/" target="_blank">
-                        <img src="img/logos/sponsors/3d-connexion-logo.png" alt="">
-                    </a>
-                </div>
-                <div class="col-lg-3 col-sm-6 mix gold">
-                    <a href="https://labelworks.epson.com/" target="_blank">
-                        <img src="img/logos/sponsors/Epson_logo.svg.png" alt="">
-                    </a>
-                </div>
-                <div class="col-lg-3 col-sm-6 mix gold">
-                    <a href="https://airtech.com/" target="_blank">
-                        <img src="img/logos/sponsors/airtech.png" alt="">
-                    </a>
-                </div>
+        <h2 class="sponsor-heading">Gold Sponsors:</h2>
+        <div class="Sponsorcontainer row clearfix">
+            <div class="col-lg-3 col-sm-6 mix gold">
+                <a href="https://labjack.com/" target="_blank">
+                    <img src="img/logos/sponsors/LabJack.png" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-sm-6 mix gold">
+                <a href="https://3dconnexion.com/us/" target="_blank">
+                    <img src="img/logos/sponsors/3d-connexion-logo.png" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-sm-6 mix gold">
+                <a href="https://labelworks.epson.com/" target="_blank">
+                    <img src="img/logos/sponsors/Epson_logo.svg.png" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-sm-6 mix gold">
+                <a href="https://airtech.com/" target="_blank">
+                    <img src="img/logos/sponsors/airtech.png" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-sm-6 mix gold">
+                <a href="https://synnaxlabs.com/" target="_blank">
+                    <img src="img/logos/sponsors/synnax.png" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-sm-6 mix gold">
+                <a href="https://www.blueorigin.com/" target="_blank">
+                    <img src="img/logos/sponsors/blue-origin.png" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-sm-6 mix gold">
+                <a href="https://www.epsilon3.io/" target="_blank">
+                    <img src="img/logos/sponsors/Epsilon3.webp" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-sm-6 mix gold">
+                <a href="https://www.sendcutsend.com/" target="_blank">
+                    <img src="img/logos/sponsors/send-cut-send.webp" alt="">
+                </a>
+            </div>
+            <!-- </div> -->
+        </div>
+        <h2 class="sponsor-heading">Silver Sponsors:</h2>
+        <div class="Sponsorcontainer row clearfix">
+            <div class="col-lg-3 col-sm-6 mix silver">
+                <a href="https://www.rtx.com/raytheon" target="_blank">
+                    <img src="img/logos/sponsors/raytheon.png" alt="">
+                </a>
+            </div>   
             <!-- </div> -->
         </div>
     </section>
