@@ -3027,7 +3027,7 @@ ol {
 	}
 }
 
-@media only screen and (min-width: 1200px) {
+/*@media only screen and (min-width: 1200px) {
 	.Sponsorcontainer {
 		max-width: 1200px;
 		max-height: 150px;
@@ -3036,7 +3036,7 @@ ol {
 		justify-content:center;
 		align-items:center;  
 		}
-}
+}*/
 /* Medium Device : 1200px */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
