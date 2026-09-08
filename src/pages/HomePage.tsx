@@ -68,6 +68,7 @@ export function HomePage() {
       </section>
 
       <span className="section-divider" />
+      <span className="section-divider" />
 
       <section className="content-section projects-section theme-light">
         <div className="section-shell">
@@ -96,6 +97,8 @@ export function HomePage() {
           </div>
         </div>
       </section>
+
+      <span className="section-divider" />
 
       <section className="content-section support-section theme-light">
         <div className="section-shell support-box">

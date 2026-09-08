@@ -1,32 +1,54 @@
-# React + TypeScript + Vite
+# Sun Devil Rocketry website
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A Vite + React + TypeScript site for the Sun Devil Rocketry club.
 
-Currently, two official plugins are available:
+## Quick start
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+```bash
+npm install
+npm run dev
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## Production build
+
+```bash
+npm run build
+```
+
+## Project structure
+
+- `src/pages/` — route-level page layouts
+- `src/components/` — reusable UI pieces like the site header/footer
+- `src/data/` — content registry and JSON-driven site data
+- `src/types/` — shared TypeScript models
+- `src/index.css` — theme variables, layout utilities, and section styling
+- `public/` — static images and logo assets
+- `tailwind.config.js` — the Tailwind palette and design tokens
+
+## Easy customization points
+
+### Theme / brand colors
+Update the palette in `tailwind.config.js` and the matching CSS variables in `src/index.css`.
+
+### Page content
+Edit the JSON files in `src/data/` to change projects, members, or hero slides.
+
+### Section styling
+Most section appearance is controlled in `src/index.css`, including:
+- background/text themes
+- spacing helpers
+- card styles
+- footer/layout rules
+
+### Branding assets
+Replace files in `public/` and `public/img/` to change logos and imagery without editing app logic.
+
+## Notes
+
+This project is intentionally organized so content, styling, and assets are easy to maintain:
+- content lives in data files
+- design tokens live in the theme config
+- layout logic lives in components and pages
+- static media stays under `public/`
+
+That makes it easier to push to a fresh repository and keep the project maintainable over time.
