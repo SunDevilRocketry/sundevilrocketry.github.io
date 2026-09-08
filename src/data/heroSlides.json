@@ -1,0 +1,34 @@
+[
+  {
+    "id": "launch-day",
+    "image": "/img/hero/launch-landscape.jpg",
+    "eyebrow": "",
+    "title": "POW",
+    "subtitle": "ROCKETS",
+    "tagline": "BOOM"
+  },
+  {
+    "id": "shop-floor",
+    "image": "/img/hero/hotfire.jpg",
+    "eyebrow": "",
+    "title": "POW",
+    "subtitle": "ROCKETS",
+    "tagline": "BOOM"
+  },
+  {
+    "id": "student-team",
+    "image": "/img/hero/rocket.jpg",
+    "eyebrow": "",
+    "title": "POW",
+    "subtitle": "ROCKETS",
+    "tagline": "BOOM"
+  },
+  {
+    "id": "field-test",
+    "image": "/img/hero/shop.jpg",
+    "eyebrow": "",
+    "title": "POW",
+    "subtitle": "ROCKETS",
+    "tagline": "BOOM"
+  }
+]

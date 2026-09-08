@@ -1,0 +1,111 @@
+[
+  {
+    "id": "michaelsulivan",
+    "name": "Michael Sullivan",
+    "role": "President",
+    "team": "Leadership",
+    "bio": "Goat.",
+    "focus": ["Leadership", "Strategy", "Mentoring"],
+    "image": "/img/officers/michael.jpg"
+  },
+  {
+    "id": "krushnavarpe",
+    "name": "Krushna Varpe",
+    "role": "Vice President",
+    "team": "Operations",
+    "bio": "bio.",
+    "funFact": "Always has a backup plan for launch-day logistics.",
+    "focus": ["Operations", "Planning", "Team coordination"],
+    "image": "/img/officers/krushna.png"
+  },
+  {
+    "id": "nikpatel",
+    "name": "Nik Patel",
+    "role": "Outreach Lead",
+    "team": "Education",
+    "bio": "bio.",
+    "funFact": "Can make a rocket demo feel like a science fair showstopper.",
+    "focus": ["Education", "Events", "Partnerships"],
+    "image": "/img/officers/nik.png"
+  },
+  {
+    "id": "elisells",
+    "name": "Eli Sells",
+    "role": "Avionics Lead, Chief Engineer",
+    "team": "Avionics",
+    "bio": "bio",
+    "funFact": "Does quick design checks by eye before the CAD software even opens.",
+    "focus": ["CAD", "Manufacturing", "Structures"],
+    "image": "/img/officers/eli.jpg"
+  },
+  {
+    "id": "davidortloff",
+    "name": "David Ortloff",
+    "role": "Avionics Hardware Sublead",
+    "team": "Avionics",
+    "bio": "bio",
+    "funFact": "Treats checklists like a sacred ritual before every launch window.",
+    "focus": ["Launch", "Safety", "Operations"],
+    "image": "/img/officers/david.jpg"
+  },
+  {
+    "id": "fernandovillatoro",
+    "name": "Fernando Villatoro",
+    "role": "Avionics Software Sublead",
+    "team": "Avionics",
+    "bio": "bio",
+    "funFact": "Can debug a wiring issue by listening for a single bad connection.",
+    "focus": ["Avionics", "Telemetry", "Embedded systems"],
+    "image": "/img/officers/fernando.png"
+  },
+  {
+    "id": "nicholasarmistead",
+    "name": "Nicholas Armistead",
+    "role": "Avionics Firmware Sublead",
+    "team": "Integration",
+    "bio": "bio ",
+    "funFact": "Prefers elegant solutions over patchwork fixes when the system is under stress.",
+    "focus": ["Integration", "Systems", "Verification"],
+    "image": "/img/officers/nicholas.png"
+  },
+  {
+    "id": "lucasbradley",
+    "name": "Lucas Bradley",
+    "role": "Liquid Propulsion Co-Lead",
+    "team": "Integration",
+    "bio": "bio",
+    "funFact": "Prefers elegant solutions over patchwork fixes when the system is under stress.",
+    "focus": ["Integration", "Systems", "Verification"],
+    "image": "/img/officers/lucas.png"
+  },
+  {
+    "id": "avisavalia",
+    "name": "Avi Savalia",
+    "role": "Advanced High Powered Rocketry Lead",
+    "team": "Integration",
+    "bio": "bio",
+    "funFact": "Prefers elegant solutions over patchwork fixes when the system is under stress.",
+    "focus": ["Integration", "Systems", "Verification"],
+    "image": "/img/officers/avi.png"
+  },
+  {
+    "id": "josephquam",
+    "name": "Joseph Quam",
+    "role": "Liquid Propulsion Co-Lead",
+    "team": "Integration",
+    "bio": "bio",
+    "funFact": "Prefers elegant solutions over patchwork fixes when the system is under stress.",
+    "focus": ["Integration", "Systems", "Verification"],
+    "image": "/img/officers/joseph.png"
+  },
+  {
+    "id": "gibsonmcgee",
+    "name": "Gibson McGee",
+    "role": "Advanced High Powered Rocketry Lead",
+    "team": "Integration",
+    "bio": "bio",
+    "funFact": "Prefers elegant solutions over patchwork fixes when the system is under stress.",
+    "focus": ["Integration", "Systems", "Verification"],
+    "image": "/img/officers/gibson.png"
+  }
+]

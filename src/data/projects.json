@@ -1,0 +1,52 @@
+[
+  {
+    "id": "hpr",
+    "title": "High-Power Rocketry",
+    "summary": "A two-stage flight vehicle built for high-altitude experimentation and structural validation.",
+    "description": "Sun Devil Rocketry researches and tests rocket propulsion concepts to help members build practical aerospace experience in design, fabrication, instrumentation, and validation.",
+    "phase": "Research",
+    "status": "Active",
+    "tags": ["Propulsion", "Testing", "R&D"],
+    "image": "/img/projects/moonburner.jpg"
+  },
+  {
+    "id": "intro-team",
+    "title": "Intro-Team Challenge",
+    "summary": "Computational aerodynamics work focused on drag reduction and stability at flight conditions.",
+    "description": "Members design, build, and fly high-power rockets with a focus on reliability, safety, and performance through iterative testing and engineering review.",
+    "phase": "Flight",
+    "status": "Active",
+    "tags": ["Aerospace", "Launch", "Systems"],
+    "image": "/img/projects/boattail.jpg"
+  },
+  {
+    "id": "flight-computer",
+    "title": "In House Flight Computer",
+    "summary": "Student-designed embedded flight computer for sensor acquisition and mission telemetry.",
+    "description": "This beginner-friendly project gives new members hands-on experience in rocketry fundamentals, manufacturing, and flight preparation under mentor support.",
+    "phase": "Learning",
+    "status": "Open",
+    "tags": ["Education", "Mentorship", "Competition"],
+    "image": "/img/projects/ascent.jpg"
+  },
+  {
+    "id": "solids",
+    "title": "Solid Propulsion",
+    "summary": "An experiment and payload design program exploring onboard sensing and mission architecture.",
+    "description": "The club partners with schools and community groups to teach students about rocketry, engineering, and STEM careers through demos and workshops.",
+    "phase": "Community",
+    "status": "Active",
+    "tags": ["STEM", "Outreach", "Community"],
+    "image": "/img/projects/ipl.jpg"
+  },
+  {
+    "id": "liquids",
+    "title": "Liquid Propulsion",
+    "summary": "Research and development of liquid rocket engines for high-performance applications.",
+    "description": "This project focuses on the design, testing, and optimization of liquid propellant systems for aerospace applications.",
+    "phase": "Research",
+    "status": "Active",
+    "tags": ["RF", "Telemetry", "Communication"],
+    "image": "/img/projects/rf-antenna.jpg"
+  }
+]
