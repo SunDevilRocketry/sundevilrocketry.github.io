@@ -467,7 +467,7 @@ a {
 .project-feature {
   border: 1px solid var(--section-border, rgba(17, 17, 17, 0.08));
   border-radius: 24px;
-  background: var(--section-surface, rgba(17, 17, 17, 0.02));
+  background: var(--section-surface, rgba(17, 17, 17, 0.03));
   padding: 22px;
 }
 
@@ -532,7 +532,6 @@ a {
   gap: 24px;
   align-items: center;
   border: 0px solid var(--section-border, rgba(17, 17, 17, 0.08));
-  border-radius: 28px;
   padding: 60px 28px;
   background: var(--section-surface, rgba(17, 17, 17, 0.02));
 }
@@ -691,7 +690,7 @@ a {
 
 .contact-form {
   border: 1px solid var(--section-border, rgba(17, 17, 17, 0.12));
-  background: var(--section-surface, #ffffff);
+  background: rgba(17, 17, 17, 0.03);
   padding: 24px;
 }
 
@@ -711,7 +710,7 @@ a {
 .contact-form textarea {
   width: 100%;
   margin-top: 10px;
-  background: var(--section-bg, #ffffff);
+  background: rgba(255, 255, 255, 0.5);
   border: 1px solid var(--section-border, rgba(17, 17, 17, 0.12));
   border-radius: 16px;
   color: var(--section-text, var(--brand-ink));

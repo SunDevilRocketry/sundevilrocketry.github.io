@@ -9,11 +9,11 @@ export function ContactPage() {
           <PageHeader
             eyebrow="Contact"
             title="Get in touch with Sun Devil Rocketry."
-            description="We love connecting with students, mentors, alumni, and sponsors who want to support our mission and grow the club."
+            description="Excited about what we're doing? Interested in sponsoring or joining us? Just want to get in touch? We're here to field your questions."
           />
 
           <div className="contact-list">
-            <div><Globe size={18} /> hello@sundevilrocketry.org</div>
+            <div><Globe size={18} /> rocketry.asu@gmail.com</div>
             <div><Briefcase size={18} /> Tempe, Arizona</div>
           </div>
         </div>
