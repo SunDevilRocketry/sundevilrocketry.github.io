@@ -1,4 +1,4 @@
-#### Issue: #<issue number>
+#### Fixes: #<issue number>
 <br>
 
 ## Description
