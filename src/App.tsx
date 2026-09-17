@@ -12,6 +12,10 @@ import { ProjectsPage } from './pages/ProjectsPage'
 function App() {
   return (
     <BrowserRouter>
+      <head>
+        <link rel="icon" type="image/png" href="/favicon-16x16.png" />
+        <title>Sun Devil Rocketry</title>
+      </head>
       <div className="site-shell">
         <SiteHeader />
         <main>
