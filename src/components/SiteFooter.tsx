@@ -31,7 +31,7 @@ export function SiteFooter() {
 
       <div className="flex justify-between section-shell footer-bottom">
         <div className="mt-2">Copyright © 2026 All rights reserved</div>
-        <div className="footer-contact-link"><Link to="/contact">Contact Us</Link></div>
+<Link to="/contact" className="footer-contact-link">Contact Us</Link>
       </div>
     </footer>
   )
