@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom'
 
 const footerSocials = [
-  { href: 'http://www.facebook.com/SunDevilRocketry/', label: 'Facebook' },
-  { href: 'https://www.instagram.com/sun.devil.rocketry/', label: 'Instagram' },
-  { href: 'https://www.linkedin.com/company/sun-devil-rocketry', label: 'LinkedIn' },
-  { href: 'https://www.youtube.com/channel/UCQ922Kad6tfLVMjpdCOGOug/', label: 'YouTube' },
+  { href: 'http://www.facebook.com/SunDevilRocketry/', label: 'Facebook', imgSrc: '/img/social-logos/facebook.png' },
+  { href: 'https://www.instagram.com/sun.devil.rocketry/', label: 'Instagram', imgSrc: '/img/social-logos/instagram.png' },
+  { href: 'https://www.linkedin.com/company/sun-devil-rocketry', label: 'LinkedIn', imgSrc: '/img/social-logos/linkedin.png' },
+  { href: 'https://www.youtube.com/channel/UCQ922Kad6tfLVMjpdCOGOug/', label: 'YouTube', imgSrc: '/img/social-logos/youtube.png' },
 ]
 
 export function SiteFooter() {
@@ -21,17 +21,17 @@ export function SiteFooter() {
         </div>
 
         <div className="footer-socials">
-          {footerSocials.map(({ href, label }) => (
+          {footerSocials.map(({ href, label, imgSrc }) => (
             <a key={label} href={href} target="_blank" rel="noreferrer" aria-label={label} className="social-badge">
-              {label.substring(0, 1)}
+              <img src={imgSrc} alt={label} />
             </a>
           ))}
         </div>
       </div>
 
-      <div className="section-shell footer-bottom">
-        <span>Copyright © 2026 All rights reserved</span>
-        <Link to="/contact">Contact</Link>
+      <div className="flex justify-between section-shell footer-bottom">
+        <div className="mt-2">Copyright © 2026 All rights reserved</div>
+<Link to="/contact" className="footer-contact-link">Contact Us</Link>
       </div>
     </footer>
   )
