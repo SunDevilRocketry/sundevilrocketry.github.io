@@ -809,6 +809,14 @@ a {
   background: rgba(255,255,255,0.02);
 }
 
+.footer-contact-link{
+  background: #f2c16a;
+  color: #0b0b0b;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 999px;
+}
+
 .footer-bottom {
   max-width: 1500px;
   margin: 0 auto;
