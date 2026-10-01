@@ -15,8 +15,6 @@ export interface Member {
   role: string
   team: string
   bio: string
-  funFact: string
-  focus: string[]
   image: string
 }
 
