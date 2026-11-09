@@ -11,7 +11,7 @@
     "id": "krushnavarpe",
     "name": "Krushna Varpe",
     "role": "Vice President / Solid Propulsion Lead",
-    "team": "Operations",
+    "team": "Leadership",
     "bio": "Krushna Varpe is a junior studying Mechanical Engineering; his fun fact is that he traveled to Alaska to fly a rocket on a frozen lake, and his favorite SDR memory is going to FAR to static fire motors.",
     "image": "/img/officers/krushna.png"
   },
@@ -19,14 +19,14 @@
     "id": "nikpatel",
     "name": "Nik Patel",
     "role": "Treasurer",
-    "team": "Education",
+    "team": "Leadership",
     "bio": "Nik Patel is a junior studying Aerospace (Astronautics) Engineering; his fun fact is that he plays the bass guitar, and his favorite SDR memory is smashing old rockets with a sledgehammer during shop cleaning and watching the stars at FAR.",
     "image": "/img/officers/nik.png"
   },
   {
     "id": "elisells",
     "name": "Eli Sells",
-    "role": "Avionics Lead, Chief Engineer",
+    "role": "Chief Engineer / Avionics Lead",
     "team": "Avionics",
     "bio": "Eli Sells is a senior studying Computer Science (Software Engineering) and Mathematics; his fun fact is that some of his code has flown on actual planes, and his favorite SDR memory is the design review for the next-generation flight computer.",
     "image": "/img/officers/eli.png"
@@ -51,7 +51,7 @@
     "id": "nicholasarmistead",
     "name": "Nicholas Armistead",
     "role": "Avionics Firmware Sublead",
-    "team": "Integration",
+    "team": "Avionics",
     "bio": "Nicholas Armistead is a junior studying Avionics Engineering; his fun fact is that he is colorblind, and his favorite SDR memory is his first time at TRAPHX when the intro teams and AMRAMM launched.",
     "image": "/img/officers/nicholas.png"
   },
@@ -59,7 +59,7 @@
     "id": "lucasbradley",
     "name": "Lucas Bradley",
     "role": "Liquid Propulsion Co-Lead",
-    "team": "Integration",
+    "team": "Liquids",
     "bio": "Lucas Bradley is a sophomore studying Mechanical Engineering; his fun fact is that the first model rocket he ever launched was about four months ago, and his favorite SDR memory is assisting with four liquid rocket engine hotfires in the Mojave Desert in a single day.",
     "image": "/img/officers/lucas.png"
   },
@@ -67,7 +67,7 @@
     "id": "avisavalia",
     "name": "Avi Savalia",
     "role": "Advanced High Powered Rocketry Lead",
-    "team": "Integration",
+    "team": "HPR",
     "bio": "Avi Savalia is a junior studying Mechanical Engineering; his fun fact is that he has made it this far in engineering without ever drinking a Red Bull, and his favorite SDR memory is working on the two-stage rocket Nautilus with the entire AHPR team.",
     "image": "/img/officers/avi.png"
   },
@@ -75,7 +75,7 @@
     "id": "josephquam",
     "name": "Joseph Quam",
     "role": "Liquid Propulsion Co-Lead",
-    "team": "Integration",
+    "team": "HPR",
     "bio": "Joseph Quam is a senior studying Aerospace Engineering; his fun fact is that he has lived in five different countries, and his favorite SDR memory is eating a ton of cantaloupe with the club during a launch.",
     "image": "/img/officers/joseph.png"
   },
@@ -83,7 +83,7 @@
     "id": "gibsonmcgee",
     "name": "Gibson McGee",
     "role": "Liquid Rocket Lead",
-    "team": "Integration",
+    "team": "Liquids",
     "bio": "Gibson McGee is a senior studying Aerospace (Astronautics) Engineering; his fun fact is that instead of getting an internship for his first two summers, he worked as a fishing guide in Yellowstone National Park, and his favorite SDR memory is watching the engine from 2024 blow up.",
     "image": "/img/officers/gibson.png"
   },
@@ -91,7 +91,7 @@
     "id": "maxkublanov",
     "name": "Max Kublanov",
     "role": "Safety Officer",
-    "team": "",
+    "team": "Safety",
     "bio": "Max Kublanov is a senior studying Aerospace (Astronautics) Engineering; his fun fact is that he has three siblings, and his favorite SDR memory is seeing Thoi sleeping on the floor at PSYN after a long night working on Nautilus.",
     "image": "/img/officers/max.png"
   },
@@ -99,7 +99,7 @@
     "id": "mathiasmaineri",
     "name": "Mathias Maineri",
     "role": "Intro Team Lead",
-    "team": "",
+    "team": "Intro",
     "bio": "Mathias Maineri is a junior studying Mechanical Engineering; his fun fact is that he and his family are from Italy, and his favorite SDR memory is the 2026 FAR AHPR launch.",
     "image": "/img/officers/mathias.png"
   },
@@ -107,7 +107,7 @@
     "id": "thoitran",
     "name": "Thoi Tran",
     "role": "Launch Coordinator / Mentor",
-    "team": "",
+    "team": "Certifications",
     "bio": "Thoi Tran is a senior studying Mechanical Engineering; his fun fact is that he has river rafted in the Grand Canyon twice and likes cliff jumping, and his favorite SDR memory is launching the two-stage rocket.",
     "image": "/img/officers/thoi.png"
   },
@@ -115,7 +115,7 @@
     "id": "colediefenderfer",
     "name": "Cole Diefenderfer",
     "role": "Intro Team Lead",
-    "team": "",
+    "team": "Intro",
     "bio": "Cole Diefenderfer is a junior studying Mechanical Engineering; his fun fact is that he takes up blacksmithing in his free time, and his favorite SDR memory is driving out to FAR to go camping and launch rockets with his friends.",
     "image": "/img/officers/cole.png"
   },
@@ -123,7 +123,7 @@
     "id": "melaniehuffman",
     "name": "Melanie Huffman",
     "role": "Intro Team Lead",
-    "team": "",
+    "team": "Intro",
     "bio": "Melanie Huffman is a junior studying Mechanical Engineering; her fun fact is that she has done four triathlons and four half marathons, and her favorite SDR memory is launching at Eagle Eye in April.",
     "image": "/img/officers/melanie.png"
   },
@@ -131,7 +131,7 @@
     "id": "allisoncheon",
     "name": "Allison Cheon",
     "role": "Industry Relations / Social Media Officer",
-    "team": "",
+    "team": "Public Relations",
     "bio": "Allison Cheon is a senior studying Electrical Engineering and Mathematics; her fun fact is that she was a first-chair bassoonist who played at Carnegie Hall in New York, and her favorite SDR memory is seeing her first rocket launch at TRAPHX in October 2024, where the sights and sounds hooked her on aerospace.",
     "image": "/img/officers/allison.png"
   }

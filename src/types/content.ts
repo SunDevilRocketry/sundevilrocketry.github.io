@@ -2,7 +2,7 @@ export interface Project {
   id: string
   title: string
   summary: string
-  description: string
+  content: string
   phase: string
   status: string
   tags: string[]

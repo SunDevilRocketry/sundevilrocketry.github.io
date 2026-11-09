@@ -36,7 +36,7 @@ export function HomePage() {
           <div className="hero-word">{activeHero.tagline}</div>
 
           <div className="hero-cta-row">
-            <a className="primary-cta" href="https://sundevilcentral.eoss.asu.edu/feeds?type=club&type_id=35474&tab=about" target="_blank" rel="noreferrer">
+            <a className="primary-cta mt-4" href="https://sundevilcentral.eoss.asu.edu/feeds?type=club&type_id=35474&tab=about" target="_blank" rel="noreferrer">
               Join our club
             </a>
           </div>
@@ -109,8 +109,8 @@ export function HomePage() {
             </p>
           </div>
           <div className="support-actions">
-            <a href="./sponsors.html" className="support-link">donate</a>
-            <a href="./sponsors.html" className="support-link">become a sponsor</a>
+            <a href="./sponsors.html" className="link-button">Donate</a>
+            <a href="./sponsors.html" className="link-button">Become a Sponsor</a>
           </div>
         </div>
       </section>

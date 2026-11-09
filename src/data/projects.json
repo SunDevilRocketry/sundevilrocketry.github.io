@@ -1,42 +1,42 @@
 [
   {
-    "id": "hpr",
-    "title": "High-Power Rocketry",
-    "summary": "rocket go br",
-    "description": "this is the project description",
-    "phase": "Research",
+    "id": "liquids",
+    "title": "Liquid Rocket",
+    "summary": "ASU's first ever liquid fueled rocket.",
+    "content": "/projects/liquids.md",
+    "phase": "Liquid Propulsion Research",
+    "image": "/img/liquids/2025-2.jpeg"
+  },
+  {
+    "id": "sli",
+    "title": "NASA SLI",
+    "summary": "Our first ever entry into NASA's Student Launch Initiative.",
+    "content": "/projects/sli.md",
+    "phase": "Advanced High-Power Rocketry",
     "image": "/img/projects/moonburner.jpg"
   },
   {
     "id": "intro-team",
     "title": "Intro-Team Challenge",
-    "summary": "intro for new people",
-    "description": "this is the project description",
-    "phase": "Flight",
+    "summary": "New to rocketry? Start here!",
+    "content": "/projects/intro-team.md",
+    "phase": "Career & Skill Development",
     "image": "/img/projects/boattail.jpg"
   },
   {
     "id": "flight-computer",
-    "title": "In House Flight Computer",
-    "summary": "computer that makes flight",
-    "description": "this is the project description",
-    "phase": "Learning",
-    "image": "/img/projects/ascent.jpg"
+    "title": "Flight Computer",
+    "summary": "Our in-house data acquisition and telemetry computer for high-power rockets.",
+    "content": "/projects/flight-computer.md",
+    "phase": "Avionics",
+    "image": "/img/projects/fc-in-progress.jpg"
   },
   {
     "id": "solids",
     "title": "Solid Propulsion",
-    "summary": "rock",
-    "description": "this is the project description",
-    "phase": "Community",
-    "image": "/img/projects/ipl.jpg"
-  },
-  {
-    "id": "liquids",
-    "title": "Liquid Propulsion",
-    "summary": "water go brrr",
-    "description": "this is the project description",
-    "phase": "Research",
-    "image": "/img/projects/rf-antenna.jpg"
+    "summary": "Custom propellant and engine hardware development group",
+    "content": "/projects/solids.md",
+    "phase": "Solid Propulsion Research",
+    "image": "/img/solids/solid.jpg"
   }
 ]

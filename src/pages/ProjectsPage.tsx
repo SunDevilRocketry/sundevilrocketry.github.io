@@ -11,7 +11,7 @@ export function ProjectsPage() {
         <PageHeader
           eyebrow="Projects"
           title="Explore the work that moves our club forward."
-          description="cool little description about the projects page ig"
+          description=""
         />
 
         <div className="project-rail mt-large">

@@ -3,6 +3,17 @@ import projectsData from './projects.json'
 import membersData from './members.json'
 import type { HeroSlide, Member, Project } from '../types/content'
 
+const projectMarkdownFiles = import.meta.glob('../../projects/*.md', {
+  eager: true,
+  import: 'default',
+  query: '?raw',
+}) as Record<string, string>
+
+const projectMediaFiles = import.meta.glob('../../img/**/*.{mp4,webm,ogg,mov}', {
+  eager: true,
+  import: 'default',
+}) as Record<string, string>
+
 export interface NavigationItem {
   label: string
   to: string
@@ -25,6 +36,16 @@ export class ContentRegistry {
 
   getProjectById(id: string): Project | undefined {
     return this.projects.find((project) => project.id === id)
+  }
+
+  getProjectContent(path: string): string {
+    const fileName = path.split('/').pop()
+    return fileName ? projectMarkdownFiles[`../../projects/${fileName}`] ?? '' : ''
+  }
+
+  getProjectMediaUrl(path: string): string {
+    const sourcePath = path.replace(/^\/img\//, '../../img/')
+    return projectMediaFiles[sourcePath] ?? path
   }
 
   getMembers(): Member[] {

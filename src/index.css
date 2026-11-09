@@ -304,7 +304,7 @@ a {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  font-size: 0.72rem;
+  font-size: 0.82rem;
   box-shadow: 0 16px 35px rgba(217, 179, 106, 0.18);
 }
 
@@ -559,6 +559,20 @@ a {
   gap: 12px;
 }
 
+.link-button {
+   display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 150px;
+  height: 48px;
+  border-radius: 999px;
+  padding: 0 18px;
+  background: #f2c16a;
+  color: #111111;
+  font-weight: 700;
+  text-transform: uppercase; 
+}
+
 .support-link {
   display: inline-flex;
   align-items: center;
@@ -570,7 +584,7 @@ a {
   background: #f2c16a;
   color: #111111;
   font-weight: 700;
-  text-transform: lowercase;
+  text-transform: uppercase;
 }
 
 .facilities-intro {
@@ -818,7 +832,7 @@ a {
 }
 
 .footer-bottom {
-  max-width: 1500px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 10px 32px 22px;
   font-size: 0.78rem;
@@ -1009,7 +1023,6 @@ a {
 }
 
 .detail-panel {
-
   padding: 24px;
 }
 
@@ -1020,11 +1033,69 @@ a {
   color: var(--section-text, var(--brand-ink));
 }
 
-.detail-panel p {
+.detail-panel p,
+.project-markdown {
   margin: 0;
   color: var(--section-text-soft, rgba(17, 17, 17, 0.76));
   line-height: 1.7;
   font-size: 1.06rem;
+}
+
+.project-markdown {
+  display: grid;
+  gap: 18px;
+}
+
+.project-markdown h1,
+.project-markdown h2,
+.project-markdown h3,
+.project-markdown h4 {
+  margin: 0;
+  color: var(--section-text, var(--brand-ink));
+  line-height: 1.1;
+}
+
+.project-markdown h1 {
+  font-size: 2rem;
+}
+
+.project-markdown h2 {
+  font-size: 1.6rem;
+}
+
+.project-markdown h3,
+.project-markdown h4 {
+  font-size: 1.25rem;
+}
+
+.project-markdown ul,
+.project-markdown ol {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+.project-markdown ul {
+  list-style: disc;
+}
+
+.project-markdown ol {
+  list-style: decimal;
+}
+
+.project-markdown li + li {
+  margin-top: 6px;
+}
+
+.project-markdown a {
+  color: #825a12;
+  text-decoration: underline;
+}
+
+.project-markdown img {
+  width: 100%;
+  max-height: 520px;
+  object-fit: cover;
+  border-radius: 14px;
 }
 
 .project-status {

@@ -13,7 +13,7 @@ function App() {
   return (
     <BrowserRouter>
       <head>
-        <link rel="icon" type="image/png" href="/favicon-16x16.png" />
+        <link rel="icon" type="image/png" href="/favicon.ico" />
         <title>Sun Devil Rocketry</title>
       </head>
       <div className="site-shell">

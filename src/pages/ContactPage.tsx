@@ -17,7 +17,9 @@ export function ContactPage() {
             <div><Briefcase size={18} /> Tempe, Arizona</div>
           </div>
         </div>
-
+        
+        
+        {/*ETS: This form has been temporarily disabled since it was not wired properly.
         <form className="contact-form">
           <div className="form-grid">
             <label>
@@ -43,7 +45,7 @@ export function ContactPage() {
           <button type="submit" className="primary-button">
             Send inquiry <ArrowRight size={18} />
           </button>
-        </form>
+        </form> */}
       </div>
     </div>
   )
