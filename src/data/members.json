@@ -32,6 +32,30 @@
     "image": "/img/officers/eli.png"
   },
   {
+    "id": "allisoncheon",
+    "name": "Allison Cheon",
+    "role": "Industry Relations / Social Media Officer",
+    "team": "Public Relations",
+    "bio": "Allison Cheon is a senior studying Electrical Engineering and Mathematics; her fun fact is that she was a first-chair bassoonist who played at Carnegie Hall in New York, and her favorite SDR memory is seeing her first rocket launch at TRAPHX in October 2024, where the sights and sounds hooked her on aerospace.",
+    "image": "/img/officers/allison.png"
+  },
+  {
+    "id": "maxkublanov",
+    "name": "Max Kublanov",
+    "role": "Safety Officer",
+    "team": "Safety",
+    "bio": "Max Kublanov is a senior studying Aerospace (Astronautics) Engineering; his fun fact is that he has three siblings, and his favorite SDR memory is seeing Thoi sleeping on the floor at PSYN after a long night working on Nautilus.",
+    "image": "/img/officers/max.png"
+  },
+  {
+    "id": "thoitran",
+    "name": "Thoi Tran",
+    "role": "Launch Coordinator / Mentor",
+    "team": "Certifications",
+    "bio": "Thoi Tran is a senior studying Mechanical Engineering; his fun fact is that he has river rafted in the Grand Canyon twice and likes cliff jumping, and his favorite SDR memory is launching the two-stage rocket.",
+    "image": "/img/officers/thoi.png"
+  },
+  {
     "id": "davidortloff",
     "name": "David Ortloff",
     "role": "Avionics Hardware Sublead",
@@ -64,14 +88,6 @@
     "image": "/img/officers/lucas.png"
   },
   {
-    "id": "avisavalia",
-    "name": "Avi Savalia",
-    "role": "Advanced High Powered Rocketry Lead",
-    "team": "HPR",
-    "bio": "Avi Savalia is a junior studying Mechanical Engineering; his fun fact is that he has made it this far in engineering without ever drinking a Red Bull, and his favorite SDR memory is working on the two-stage rocket Nautilus with the entire AHPR team.",
-    "image": "/img/officers/avi.png"
-  },
-  {
     "id": "josephquam",
     "name": "Joseph Quam",
     "role": "Liquid Propulsion Co-Lead",
@@ -88,12 +104,12 @@
     "image": "/img/officers/gibson.png"
   },
   {
-    "id": "maxkublanov",
-    "name": "Max Kublanov",
-    "role": "Safety Officer",
-    "team": "Safety",
-    "bio": "Max Kublanov is a senior studying Aerospace (Astronautics) Engineering; his fun fact is that he has three siblings, and his favorite SDR memory is seeing Thoi sleeping on the floor at PSYN after a long night working on Nautilus.",
-    "image": "/img/officers/max.png"
+    "id": "avisavalia",
+    "name": "Avi Savalia",
+    "role": "Advanced High Powered Rocketry Lead",
+    "team": "HPR",
+    "bio": "Avi Savalia is a junior studying Mechanical Engineering; his fun fact is that he has made it this far in engineering without ever drinking a Red Bull, and his favorite SDR memory is working on the two-stage rocket Nautilus with the entire AHPR team.",
+    "image": "/img/officers/avi.png"
   },
   {
     "id": "mathiasmaineri",
@@ -102,14 +118,6 @@
     "team": "Intro",
     "bio": "Mathias Maineri is a junior studying Mechanical Engineering; his fun fact is that he and his family are from Italy, and his favorite SDR memory is the 2026 FAR AHPR launch.",
     "image": "/img/officers/mathias.png"
-  },
-  {
-    "id": "thoitran",
-    "name": "Thoi Tran",
-    "role": "Launch Coordinator / Mentor",
-    "team": "Certifications",
-    "bio": "Thoi Tran is a senior studying Mechanical Engineering; his fun fact is that he has river rafted in the Grand Canyon twice and likes cliff jumping, and his favorite SDR memory is launching the two-stage rocket.",
-    "image": "/img/officers/thoi.png"
   },
   {
     "id": "colediefenderfer",
@@ -126,13 +134,5 @@
     "team": "Intro",
     "bio": "Melanie Huffman is a junior studying Mechanical Engineering; her fun fact is that she has done four triathlons and four half marathons, and her favorite SDR memory is launching at Eagle Eye in April.",
     "image": "/img/officers/melanie.png"
-  },
-  {
-    "id": "allisoncheon",
-    "name": "Allison Cheon",
-    "role": "Industry Relations / Social Media Officer",
-    "team": "Public Relations",
-    "bio": "Allison Cheon is a senior studying Electrical Engineering and Mathematics; her fun fact is that she was a first-chair bassoonist who played at Carnegie Hall in New York, and her favorite SDR memory is seeing her first rocket launch at TRAPHX in October 2024, where the sights and sounds hooked her on aerospace.",
-    "image": "/img/officers/allison.png"
   }
 ]
