@@ -7,6 +7,4 @@ Image: A past AHPR rocket
 
 This year, AHPR decided to undertake a new challenge: the [NASA Student Launch Initiative](https://www.nasa.gov/learning-resources/nasa-student-launch/). This is the first year that ASU has sent a team to the competition, and it's easily the team's most ambitious undertaking. In addition to needing to design a rocket for the challenge, they are also bringing a payload capable of autonomously locating an object and determining the distance to that object after landing.
 
-![State Press article](/img/projects/SLI_article.png)
-
 Read more about us in this [State Press article](https://www.statepress.com/article/2026/10/asu-club-nasa-selection)!
