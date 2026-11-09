@@ -5,7 +5,7 @@
     "summary": "ASU's first ever liquid fueled rocket.",
     "content": "/projects/liquids.md",
     "phase": "Liquid Propulsion Research",
-    "image": "/img/liquids/2025-2.jpeg"
+    "image": "/img/projects/liquids.jpeg"
   },
   {
     "id": "sli",
@@ -21,7 +21,7 @@
     "summary": "New to rocketry? Start here!",
     "content": "/projects/intro-team.md",
     "phase": "Career & Skill Development",
-    "image": "/img/projects/boattail.jpg"
+    "image": "/img/projects/starbound.jpg"
   },
   {
     "id": "flight-computer",
@@ -37,6 +37,6 @@
     "summary": "Custom propellant and engine hardware development group",
     "content": "/projects/solids.md",
     "phase": "Solid Propulsion Research",
-    "image": "/img/solids/solid.jpg"
+    "image": "/img/projects/solid.jpg"
   }
 ]
