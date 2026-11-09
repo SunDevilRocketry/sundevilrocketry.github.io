@@ -35,6 +35,9 @@ jobs:
       - name: Build project
         run: npm run build
 
+      - name: Add SPA route fallback
+        run: cp dist/index.html dist/404.html
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
