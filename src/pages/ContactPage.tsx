@@ -1,4 +1,4 @@
-import { ArrowRight, Briefcase, Globe } from 'lucide-react'
+import { Briefcase, Globe } from 'lucide-react'
 import { PageHeader } from '../components/PageHeader'
 
 export function ContactPage() {
