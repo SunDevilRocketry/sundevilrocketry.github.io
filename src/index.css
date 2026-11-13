@@ -5,6 +5,7 @@
 :root {
   --brand-ink: #111111;
   --brand-paper: #f5f2ee;
+  --brand-paper-soft: #fafafa;
   --brand-accent: #d9b36a;
   --brand-accent-soft: rgba(217, 179, 106, 0.14);
   --brand-accent-strong: rgba(217, 179, 106, 0.22);
@@ -703,8 +704,10 @@ a {
 }
 
 .contact-form {
-  border: 1px solid var(--section-border, rgba(17, 17, 17, 0.12));
-  background: rgba(17, 17, 17, 0.03);
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 4px 15px 0px rgba(20, 20, 20, 0.1);
+  background: var(--section-text-soft);
   padding: 24px;
 }
 
@@ -717,7 +720,7 @@ a {
 .contact-form label {
   display: block;
   font-size: 0.8rem;
-  color: var(--section-text-soft, rgba(17, 17, 17, 0.72));
+  color: var(--section-text-muted, rgba(17, 17, 17, 0.72));
 }
 
 .contact-form input,
@@ -734,7 +737,11 @@ a {
 
 .contact-form textarea {
   min-height: 170px;
-  resize: vertical;
+  resize: none;
+}
+
+.contact-form > .primary-button {
+  align-self: flex-end;
 }
 
 .primary-button {

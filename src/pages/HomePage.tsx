@@ -109,8 +109,7 @@ export function HomePage() {
             </p>
           </div>
           <div className="support-actions">
-            <a href="./sponsors.html" className="link-button">Donate</a>
-            <a href="./sponsors.html" className="link-button">Become a Sponsor</a>
+            <Link to="/contact" className="link-button">Become a Sponsor</Link>
           </div>
         </div>
       </section>
