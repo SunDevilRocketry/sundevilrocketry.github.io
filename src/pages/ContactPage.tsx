@@ -1,4 +1,4 @@
-import { Briefcase, Globe } from 'lucide-react'
+import { ArrowRight, Briefcase, Globe } from 'lucide-react'
 import { PageHeader } from '../components/PageHeader'
 
 export function ContactPage() {
@@ -17,35 +17,32 @@ export function ContactPage() {
             <div><Briefcase size={18} /> Tempe, Arizona</div>
           </div>
         </div>
-        
-        
-        {/*ETS: This form has been temporarily disabled since it was not wired properly.
-        <form className="contact-form">
-          <div className="form-grid">
+        <form className="contact-form" action="https://formspree.io/xlepgddz" method="post">
+          <div className="form-grid mb-2">
             <label>
-              Name
-              <input placeholder="Your name" />
+              Full name
+              <input name="name" type="text" placeholder="Your name" required />
             </label>
             <label>
               Email
-              <input type="email" placeholder="you@asu.edu" />
+              <input name="_replyto" type="email" placeholder="you@asu.edu" required />
             </label>
           </div>
 
-          <label>
-            Interest
-            <input placeholder="Membership, sponsorship, collaboration..." />
+          <label className='mb-2'>
+            Subject
+            <input name="_subject" type="text" placeholder="How can we help?" required />
           </label>
 
           <label>
             Message
-            <textarea rows={5} placeholder="Tell us about your interest or project." />
+            <textarea name="message" rows={5} placeholder="Tell us about your interest or project." required />
           </label>
 
           <button type="submit" className="primary-button">
-            Send inquiry <ArrowRight size={18} />
+            Send message <ArrowRight size={18} />
           </button>
-        </form> */}
+        </form>
       </div>
     </div>
   )
