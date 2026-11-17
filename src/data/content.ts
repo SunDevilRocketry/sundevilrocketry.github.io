@@ -65,6 +65,7 @@ export const siteNavigation: NavigationItem[] = [
   { label: 'Home', to: '/' },
   { label: 'About', to: '/about' },
   { label: 'Projects', to: '/projects' },
+  { label: 'Sponsors', to: '/sponsors' },
   { label: 'Contact', to: '/contact' },
 ]
 
