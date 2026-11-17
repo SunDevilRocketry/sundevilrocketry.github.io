@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import { siteNavigation } from '../data/content'
 
 export function SiteHeader() {
@@ -8,9 +8,14 @@ export function SiteHeader() {
   return (
     <header className="site-header">
       <div className="header-inner">
-        <div className="header-brand" aria-label="Sun Devil Rocketry home">
+        <Link
+          to="/"
+          className="header-brand"
+          aria-label="Sun Devil Rocketry home"
+          onClick={() => setIsMenuOpen(false)}
+        >
           <img src="/img/big_logo.png" alt="Sun Devil Rocketry logo" className="brand-logo" />
-        </div>
+        </Link>
 
         <button
           className="nav-toggle"
